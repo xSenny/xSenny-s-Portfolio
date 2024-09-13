@@ -19,7 +19,7 @@ const Me = () => {
               </div>
               
               <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 mt-14 text-headingColor font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
-              <span><i class="ri-apps-line"></i></span><p>I'm a software student developer, all my work is mostly based on different plugins for different minecraft servers, but also personal projects. At the moment I am working on my personal project - <a className='text-blue-400' target='_blank' href='https://compiler.xsenny.dev'>XCompiler</a>. In case you got here, check the whole portfolio and see if you might need me.</p></p>
+              <span><i class="ri-apps-line"></i></span><p>I'm a software student developer, all my work is mostly based on different plugins for different minecraft servers, but also personal projects. At the moment I am working on my personal project - <a className='text-blue-400' target='_blank' href='https://grades.xsenny.dev'>Grades</a>. In case you got here, check the whole portfolio and see if you might need me.</p></p>
               <div className="flex items-center gap-9 mt-14">
                 <span className='text-smallTextColor text-[15px] font-[600]'>Follow me:</span>
                 <span>
