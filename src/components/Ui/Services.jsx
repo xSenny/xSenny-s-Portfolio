@@ -43,58 +43,14 @@ const Services = () => {
                     <div className="flex items-center justify-end w-full mx-auto">
                       <div className="w-full sm:w-1/2 sm:pl-8">
                         <div data-aos="fade-left" data-aos-duration="1200" className="p-4 duration-150 ease-in bg-white rounded shadow cursor-pointer group hover:bg-primaryColor">
-                          <h3 className='text-primaryColor font-[500] mb-3 group-hover:text-white group-hover:font-[500] text-2xl'>Minecraft Developer</h3>
-                          <p className='text-[15px] font-[500] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have 3 years experience in creating and developing minecraft plugins and servers, and half a year experience in creating and developing minecraft mods.</p>
+                          <h3 className='text-primaryColor font-[500] mb-3 group-hover:text-white group-hover:font-[500] text-2xl'>FullStack Web Developer</h3>
+                          <p className='text-[15px] font-[500] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have 3 years experience in creating and developing different Web Applications, using JS frameworks such as NextJS/ReactJS</p>
                         </div>
                       </div>
                     </div>
                     <div className="absolute flex items-center justify-center w-10 h-10 transform -translate-x-1/2 -translate-y-4 border-4 border-white rounded-full bg-primaryColor left-1/2 sm:translate:y-0">
                       <figure>
                         <img src={backendImg} alt="" />
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div className='w-full px-2 py-3 sm:max-w-xl sm:mx-auto sm:px-0'>
-            <div className='relative text-sm antialiased font-semibold text-gray-700'>
-              <div className="absolute hidden w-1 h-full sm:block bg:indigo-300 left-1/2 transform-translate-x-1/2"></div>
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                  <div className="flex flex-col items-center sm:flex-row">
-                    <div className="flex items-center justify-start w-full mx-auto">
-                      <div className="w-full sm:w-1/2 sm:pr-8">
-                        <div data-aos="fade-right" data-aos-duration="1200" className="p-4 duration-150 ease-in bg-white rounded shadow cursor-pointer group hover:bg-primaryColor">
-                          <h3 className='text-primaryColor font-[500] mb-3 group-hover:text-white group-hover:font-[500] text-2xl'>Discord Bots</h3>
-                          <p className='text-[15px] font-[500] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have 2 years of experience in developing discord bots using Java Discord API (JDA), with this, I have created various projects for discord, and if you need, you can contact me.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="absolute flex items-center justify-center w-10 h-10 transform -translate-x-1/2 -translate-y-4 border-4 border-white rounded-full bg-primaryColor left-1/2 sm:translate:y-0">
-                      <figure>
-                        <img src={uiImg} alt="" />
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div className='w-full px-2 py-3 sm:max-w-xl sm:mx-auto sm:px-0'>
-            <div className='relative text-sm antialiased font-semibold text-gray-700'>
-              <div className="absolute hidden w-1 h-full sm:block bg:indigo-300 left-1/2 transform-translate-x-1/2"></div>
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                  <div className="flex flex-col items-center sm:flex-row">
-                    <div className="flex items-center justify-end w-full mx-auto">
-                      <div className="w-full sm:w-1/2 sm:pl-8">
-                        <div data-aos="fade-left" data-aos-duration="1200" className="p-4 duration-150 ease-in bg-white rounded shadow cursor-pointer group hover:bg-primaryColor">
-                          <h3 className='text-primaryColor font-[500] mb-3 group-hover:text-white group-hover:font-[500] text-2xl'>Android Developer</h3>
-                          <p className='text-[15px] font-[500] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have a fairly small experience in developing Android mobile applications using the Java programming language, but during this time, I have been able to gain the skill of creating Android mobile applications, testing them and so on.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="absolute flex items-center justify-center w-10 h-10 transform -translate-x-1/2 -translate-y-4 border-4 border-white rounded-full bg-primaryColor left-1/2 sm:translate:y-0">
-                      <figure>
-                        <img src={appsImg} alt="" />
                       </figure>
                     </div>
                   </div>
