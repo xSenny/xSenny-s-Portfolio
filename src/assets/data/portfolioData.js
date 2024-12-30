@@ -22,7 +22,19 @@ import satoshi from '../images/satoshi.mp4'
 import expenses from '../images/expenses.png'
 import bakery from '../images/bakery.png'
 import kamalu from '../images/kamalu.png'
+import ravnix from '../images/ravnix.png'
+
+
 const portfolios = [
+  {
+    id: '0010201',
+    imgUrl: ravnix,
+    video: false,
+    category: "Web",
+    description: "This landing page was made for a hosting company. It offers different services like Minecraft Hosting, VPS and Dedicate Servers Hosting.",
+    technologies: ["NextJS", "TailwindCSS", "Framer Motion"],
+    siteUrl: "https://ravnix.net/"
+  },
   {
     id: "000",
     imgUrl: expenses,
