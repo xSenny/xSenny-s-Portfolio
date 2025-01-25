@@ -6,7 +6,7 @@ const Modal = ({activeID, setShowModal}) => {
   const portofolio = portfolios.find(portofolio => portofolio.id === activeID)
   return (
     <div className='fixed top-0 left-0 z-10 w-full h-full bg-headingColor bg-opacity-40'>
-      <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+      <div className="w-[80vw] sm:max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
         <div>
           <figure>
             {portofolio.video ? <video src={portofolio.videoUrl} controls type="video/mp4"></video> : <img src={portofolio.imgUrl} alt='nu-i'></img>}

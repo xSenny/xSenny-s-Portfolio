@@ -9,7 +9,7 @@ const Header = () => {
     <Slide className='hidden sm:block' appear={false} direction="down" in={!trigger}>
       <AppBar position='sticky'>
       <Toolbar>
-      <header className='hidden sm:flex w-full h-[80px] leading-[80px] items-center'>
+      <header className='flex w-full h-[80px] leading-[80px] items-center'>
       <div className="container">
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-[10px]'>
@@ -20,7 +20,7 @@ const Header = () => {
             </div>
           </div>
           <div className='menu'>
-            <ul className='flex items-center gap-10'>
+            <ul className='sm:flex items-center gap-10 hidden'>
               <li><a className='text-smallTextColor font-[600]' href="#about">About</a></li>
               <li><a className='text-smallTextColor font-[600]' href="#services">Services</a></li>
               <li><a className='text-smallTextColor font-[600]' href="#portfolio">Portfolio</a></li>
@@ -32,7 +32,6 @@ const Header = () => {
             hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300'>
             <i class="ri-send-plane-line"></i> Let's Talk
             </a>
-            <span className='text-2xl cursor-pointer text-smallTextColor md:hidden'><i class="ri-menu-line"></i></span>
           </div>
         </div>
       </div>

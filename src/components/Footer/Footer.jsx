@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <p className="mt-4 leading-7 text-gray-300 sm:mt-0">
-            This is a portfolio created by xSenny_, in case you need different products, contact me
+            This is a portfolio created by xSenny_, in case you need different products, contact me:
             </p>
             <div className="flex flex-wrap items-center gap-4 mt-10 md:gap-8">
               <span className='text-gray-300 font-[600] text-[15px]'>Follow Me:</span>
@@ -24,11 +24,7 @@ const Footer = () => {
                 <a href='https://github.com/xSenny' className='text-gray-300 font-[500] text-[18px]'><i class="ri-github-line"></i></a>
               </span>
               <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <button onClick={() => {
-                  const discord = "xSenny_#6531"
-                  clipboardCopy(discord);
-                  alert('Copied my discord username!')
-                }} className='text-gray-300 font-[500] text-[18px]'><i class="ri-discord-line"></i></button>
+                <a href='https://discord.com/users/664412161358954507' className='text-gray-300 font-[500] text-[18px]'><i class="ri-discord-line"></i></a>
               </span>
               <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
                 <a href='https://instagram.com/xsenny_' className='text-gray-300 font-[500] text-[18px]'><i class="ri-instagram-line"></i></a>

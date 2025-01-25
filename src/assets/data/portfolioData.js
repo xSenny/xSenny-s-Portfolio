@@ -23,9 +23,57 @@ import expenses from '../images/expenses.png'
 import bakery from '../images/bakery.png'
 import kamalu from '../images/kamalu.png'
 import ravnix from '../images/ravnix.png'
-
-
+import rollerite from '../images/rollerite.png'
+import oliver from '../images/oliver.png'
+import portfolio from '../images/portfolio.png'
+import netherix from '../images/netherix.png'
+import scriptio from '../images/scriptio.png'
 const portfolios = [
+  {
+    id: "scriptio",
+    imgUrl: scriptio,
+    video: false,
+    category: "Web",
+    description: "This is an AI application for developers, built for one of my clients with NextJS, TailwindCSS, MongoDB and OpenAI.",
+    technologies: ["MongoDB", "NextJS", "TailwindCSS", "OpenAI"],
+    siteUrl: '#'
+  },
+  {
+    id: "netherix",
+    imgUrl: netherix,
+    video: false,
+    category: "Web",
+    description: "This landing page showcases a library of minecraft builds. It was built for a Netherix Services application. With this landing page, I succeeded the application.",
+    technologies: ["Typescript", "MongoDB", "NextJS", "React"],
+    siteUrl: 'https://netherix.vercel.app/'
+  },
+  {
+    id: 'portfolio',
+    imgUrl: portfolio,
+    video: false,
+    category: "Web",
+    description: "This portfolio was designed and created by me as a fun little side project, enriching my futuristic development style. If you want to support me, the code is currently for sale on https://ko-fi.com/s/f2f4ac6e1f.",
+    technologies: ["Vite", "Typescript", "Framer Motion", "React"],
+    siteUrl: "https://portfolio-design-beige.vercel.app/"
+  },
+  {
+    id: 'rollerite',
+    imgUrl: rollerite,
+    video: false,
+    category: "Web",
+    description: "This landing page was made a Rollerite Services application. I succeeded the application with this landing page built by me in Vite and React + TailwindCSS.",
+    technologies: ["Vite", "Typescript", "Framer Motion", "React"],
+    siteUrl: "https://rollerite.vercel.app/"
+  },
+  {
+    id: 'oliver',
+    imgUrl: oliver,
+    video: false,
+    category: "Web",
+    description: "This portfolio was made for one of my clients. Built with Vite + TailwindCSS, I made sure it was a 1:1 clone of his figma design.",
+    technologies: ["Vite", "Typescript", "Framer Motion", "React"],
+    siteUrl: "https://oliver-zeta.vercel.app/"
+  },
   {
     id: '0010201',
     imgUrl: ravnix,
